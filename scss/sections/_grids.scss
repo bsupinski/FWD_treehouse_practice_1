@@ -1,0 +1,21 @@
+.main-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+    grid-column-gap: 25px;
+    grid-template-areas:
+    "member-list messages"
+    "member-list messaging";
+}
+
+.member-list{
+    grid-area: member-list;
+}
+
+.messages{
+    grid-area: messages;
+}
+
+.messaging{
+    grid-area: messaging;
+}

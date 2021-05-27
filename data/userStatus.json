@@ -1,0 +1,80 @@
+[
+    {
+        "name":"Bruce Wayne",
+        "status":"offline"
+    },
+    {
+        "name":"Dick Grayson",
+        "status":"online"
+    },
+    {
+        "name":"Jason Todd",
+        "status":"away"
+    },
+    {
+        "name":"Damian Wayne",
+        "status":"offline"
+    },
+    {
+        "name":"Tim Drake",
+        "status":"online"
+    },
+    {
+        "name":"Barry Alan",
+        "status":"away"
+    },
+    {
+        "name":"Kara Danvers",
+        "status":"offline"
+    },
+    
+    {
+        "name":"Jesse Quick",
+        "status":"away"
+    },
+    {
+        "name":"Clark Kent",
+        "status":"online"
+    },
+    {
+        "name":"Selena Kyle",
+        "status":"offline"
+    },
+    {
+        "name":"Alfred Pennyworth",
+        "status":"online"
+    },
+    {
+        "name":"Diana Prince",
+        "status":"offline"
+    },
+    {
+        "name":"Hal Jordan",
+        "status":"online"
+    },
+    {
+        "name":"Shiera Hall",
+        "status":"online"
+    },
+    {
+        "name":"Zatanna Zatara",
+        "status":"away"
+    },
+    {
+        "name":"Roy Harper",
+        "status":"offline"
+    },
+    {
+        "name":"Barbara Gordon",
+        "status":"offline"
+    },
+    {
+        "name":"Linda Lang",
+        "status":"online"
+    },
+    {
+        "name":"Jefferson Pierce",
+        "status":"offline"
+    }
+
+]

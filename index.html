@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scss.css">
+    <title>WebApp Mockup</title>
+</head>
+<body> 
+    <header>
+        <div class="header-wrapper">
+            <div class="sizing-container">
+                <div class="close indicator" ></div>
+                <div class="min indicator" ></div>
+                <div class="max indicator" ></div>
+            </div>
+            <div class="status">
+                <div class="online current-status"></div>
+                <h4>Online </h4>
+                <p>V</p>
+            </div>
+        </div>
+    </header>
+   
+    <main>
+        <div class="main-wrapper">
+            <section class="member-list">
+                <div class="member-list-wrap">
+                <h3>Start Chatting</h3>
+                <div class="current-online">
+                    <ul class="online-members" id="current-online">
+                        <!--List goes here-->
+                    </ul>  
+                </div> 
+
+                <div class="divider"></div>
+
+                <div class="current-away">
+                    <ul class="away-members" id="current-away">
+                        <!--List goes here-->
+                    </ul> 
+                </div>
+                <div class="current-offline">
+                    <ul class="offline-members" id="current-offline">
+                        <!--List goes here-->
+                    </ul>  
+                </div>
+            </div>
+            </section>
+            <section class="messages">
+                <div class="current-messages">
+                </div>
+            </section>
+            <section class="messaging">
+                <div class="input-wrap">
+                    <input type="text" class="message-input" id="message-input">
+                    <button id="send">Send</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="js/memberStatus.js"></script>
+</body>
+</html>

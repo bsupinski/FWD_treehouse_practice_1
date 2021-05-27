@@ -1,0 +1,43 @@
+body{
+    background-color: $color-main-bg;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: $color-main-bg;
+}
+
+.indicator{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.close {
+    background-color: $color-close;
+}
+
+.min {
+    background-color: $color-min;
+}
+
+.max { 
+    background-color: $color-max;
+}
+
+.online{
+    background-color: $color-online;
+}
+
+.away{
+    background-color: $color-away;
+}
+
+.offline{
+    background-color: $color-offline;
+}
