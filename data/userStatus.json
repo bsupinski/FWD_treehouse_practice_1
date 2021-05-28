@@ -75,6 +75,38 @@
     {
         "name":"Jefferson Pierce",
         "status":"offline"
+    },
+    {
+        "name":"Kyle Rayner",
+        "status":"online"
+    },
+    {
+        "name":"Oliver Queen",
+        "status":"online"
+    },
+    {
+        "name":"Ted Kord",
+        "status":"online"
+    },
+    {
+        "name":"Guy Gardner",
+        "status":"online"
+    },
+    {
+        "name":"Wally West",
+        "status":"away"
+    },
+    {
+        "name":"Saint Walker",
+        "status":"away"
+    },
+    {
+        "name":"Lois Lane",
+        "status":"offline"
+    },
+    {
+        "name":"Maxwell Lord",
+        "status":"away"
     }
 
 ]
