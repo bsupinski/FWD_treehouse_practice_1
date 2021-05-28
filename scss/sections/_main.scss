@@ -13,7 +13,8 @@
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    height: 100vh;
+    height: 90vh;
+    min-width: 170px;
     overflow-y: auto;
 }
 
@@ -29,25 +30,37 @@
 .member-list li{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: lightgray;
+    background-color: #dacdcd2a;
     padding: 5px 15px;
     border-radius: 7px;
     margin-bottom: 9px;
 }
 
 .member-list .indicator{
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .divider{
-    width: 60%;
+    width: 40%;
     height: 3px;
     background-color: $color-main-bg;
     border-radius: 4px;
     margin: 15px auto;
+}
+
+//Messages
+.messages{
+    height: 83vh;
+}
+
+.current-messages{
+    padding: 15px;
+}
+.current-messages span{
+    margin-right: 10px;
+    color: blue;
 }
 
 
@@ -63,6 +76,8 @@
 .input-wrapper{
     position: relative;
     height: 40px;
+    margin-top: 2vh ;
+
 }
 
 
@@ -71,10 +86,12 @@ input{
     height: 100%;
     border: none;
     border-radius: 10px;
+    padding: 0 10px;
+    outline: none;
 }
 
 
-#send{
+.send{
     position: absolute;
     height: 30px;
     width: 50px;
@@ -84,4 +101,8 @@ input{
     border: none;
     border-radius: 7px;
     color: white;
+}
+
+.send:active{
+    color: $color-away;
 }

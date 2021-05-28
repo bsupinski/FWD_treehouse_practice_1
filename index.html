@@ -15,10 +15,16 @@
                 <div class="min indicator" ></div>
                 <div class="max indicator" ></div>
             </div>
-            <div class="status">
-                <div class="online current-status"></div>
-                <h4>Online </h4>
-                <p>V</p>
+            <label for="standard-select"></label>
+            <div class="status-wrapper">
+                <div class="indicator" id="user-status"></div>
+                <div class="select">
+                    <select id="standard-select">
+                        <option value="online">Online</option>
+                        <option value="away">Away</option>
+                        <option value="offline">Offline</option>
+                    </select>
+                </div>
             </div>
         </div>
     </header>
@@ -29,7 +35,7 @@
                 <div class="member-list-wrap">
                 <h3>Start Chatting</h3>
                 <div class="current-online">
-                    <ul class="online-members" id="current-online">
+                    <ul class="online-members members" id="current-online">
                         <!--List goes here-->
                     </ul>  
                 </div> 
@@ -37,29 +43,31 @@
                 <div class="divider"></div>
 
                 <div class="current-away">
-                    <ul class="away-members" id="current-away">
+                    <ul class="away-members members" id="current-away">
                         <!--List goes here-->
                     </ul> 
                 </div>
                 <div class="current-offline">
-                    <ul class="offline-members" id="current-offline">
+                    <ul class="offline-members members" id="current-offline">
                         <!--List goes here-->
                     </ul>  
                 </div>
             </div>
             </section>
             <section class="messages">
-                <div class="current-messages">
+                <div class="current-messages" id="current-messages">
                 </div>
             </section>
             <section class="messaging">
-                <div class="input-wrap">
+                <div class="input-wrapper">
                     <input type="text" class="message-input" id="message-input">
-                    <button id="send">Send</button>
+                    <button class="send" id="send">Send</button>
                 </div>
             </section>
         </div>
     </main>
     <script src="js/memberStatus.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/user-status.js"></script>
 </body>
 </html>
