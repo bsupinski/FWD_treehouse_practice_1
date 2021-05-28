@@ -497,7 +497,7 @@ select,
   width: 0.8rem;
   height: 0.5rem;
   background-color: white;
-  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  clip-path: polygon(50% 63%, 100% 34%, 50% 100%, 0 34%);
 }
 
 option {
