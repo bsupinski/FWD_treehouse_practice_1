@@ -23,5 +23,5 @@ xhr.onreadystatechange = function(){
         }
     }
 };
-xhr.open("GET","../data/userStatus.json");
+xhr.open("GET","./data/userStatus.json");
 xhr.send()
