@@ -16,7 +16,7 @@ sendMessage.addEventListener("click", e =>{
 //Send input if enter is hit on keyboard
 
 inputValue.addEventListener("keyup", (e)=> {
-    if ( e.keycode === 13) {
+    if ( e.code === "Enter") {
         if(inputValue.value == ""){
             return false;
         }else{
